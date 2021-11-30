@@ -22,6 +22,12 @@ execute as @e[tag=link_pig] if score @s id = $temp id run function link:teleport
 # If that score is 0, that means no pig was teleported, which means no pig is linked and we can safely summon another
 
     # Uses player's location context
-execute unless score $success id matches 1 run summon pig ~ ~ ~ {Tags:["link_pig"]}
+    # We give it the "temp.spawned" tag so we can give it the same id as the player
+execute unless score $success id matches 1 run summon pig ~ ~ ~ {Tags:["link_pig","temp.spawned"]}
+    # Set the "temp.spawned" pig's ID to match the temp ID
+scoreboard players operation @e[tag=temp.spawned] id = $temp id
+    # Remove the "temp.spawned" tag
+tag @e[tag=temp.spawned] remove temp.spawned
+
     # Reset the success score afterward
 scoreboard players reset $success id
