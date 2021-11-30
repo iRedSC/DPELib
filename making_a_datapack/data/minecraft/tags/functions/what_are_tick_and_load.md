@@ -1,5 +1,5 @@
 ### What is tick.json and load.json?
-`tick` and `load` are **function tags** which have been given special functionality.
+`#minecraft:tick` and `#minecraft:load` are **function tags** which have been given special functionality.
 
 #### What is a function tag?
 A function tag is list a functions that can be called all at once.
