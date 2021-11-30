@@ -24,3 +24,5 @@
 | 8             | 1.18.x            |
 
  - `"description"` is a description for the data pack
+
+**Both `"pack_format"` and `"description"` are required.
