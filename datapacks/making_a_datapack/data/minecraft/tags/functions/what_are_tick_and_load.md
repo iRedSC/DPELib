@@ -2,7 +2,7 @@
 `#minecraft:tick` and `#minecraft:load` are **function tags** which have been given special functionality.
 
 #### What is a function tag?
-A function tag is list a functions that can be called all at once.
+A function tag is list a functions that can be executed all at once.
 Function tags are `.json` files placed in `<datapack>/data/<namespace>/tags/functions/<function_tag>.json`.
 Its resource location is `#<namespace>:<function_tag>`
 
