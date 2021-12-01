@@ -2,6 +2,8 @@
 ---
 #### General Terms
 
+**`Target`** - An entity/player that can be defined using a **selector** (`@a`, `@e[type=marker]`, `@s`, etc.)
+
 **`Executor`** - The entity running a particular command.
 > If you run a command in chat, *you* are the **executor**.
 
