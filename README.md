@@ -13,6 +13,7 @@
  - [ ] Create docs website (*Or just merge with JDPT*)
  - [ ] Add Tutorials
  - [ ] Add Tips
+ - [ ] MAKE SURE IT'S DATA PACK INSTEAD OF DATAPACK
 
 ---
 #### Useful Resources:
