@@ -25,10 +25,13 @@
 #### Scoreboard Terms
 
 **`Scoreboard`** - Scoreboard objective name (`Mana`, `carrot_click`, etc.).
+
 **`Criteria`** - Scoreboard objective criteria (`dummy`, `deathCount`, etc.).
 > First you make a scoreboard with `scoreboard objectives add <scoreboard_name> <criteria>`
 
 **`Score Holder`** - An entity, player, or **variable** that is able to hold a scoreboard value.
+Score holders can be an **entity selector**.
+
 **`Variable`** - A fake player, or score holder that contains special characters which cannot be used as a valid Minecraft account.
 > $timer .timer #timer are all valid variables
 
@@ -38,7 +41,16 @@
 ### Data Pack Terms
 
 Functions and function tags are **`executed`**.
+
 Predicates are **`checked`**.
-Block/entity/item tags are **`referenced`**.
+
+Block tags/entity tags/item tags are **`referenced`**.
+
 Loot tables are **`called`**.
+
 Item modifiers are **`applied`**.
+
+---
+Updated `12/3/2021`
+For MC `1.17-1.18`
+Guide from [DPELib](https://github.com/iRedSC/DPELib) by [iRedSC](https://github.com/iRedSC)
