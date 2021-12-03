@@ -1,5 +1,5 @@
 # Data Pack Example Library
- A library of heavily delineated example data packs
+ A library of heavily delineated example data packs.
 
 #### Features
 
