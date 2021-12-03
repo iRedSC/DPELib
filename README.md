@@ -1,7 +1,14 @@
 # Data Pack Example Library
  A library of heavily delineated example data packs
 
-#### Planned:
+#### Features
+
+ - **[Datapack Examples](datapacks)**
+ - **[Guides](guides)**
+    - [Commands](guides/commands)
+    - [Functions](guides/functions)
+ - **[Lectern Literate Datapacks](lectern)**
+#### Planned
  - [ ] Everything written for use with [Lectern](https://github.com/mcbeet/lectern)
  - [ ] Create docs website (*Or just merge with JDPT*)
  - [ ] Add Tutorials
