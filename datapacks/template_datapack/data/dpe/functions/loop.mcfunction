@@ -1,4 +1,4 @@
-#> example:loop
+#> dpe:loop
 #
 # @tags
 #   #minecraft:tick
