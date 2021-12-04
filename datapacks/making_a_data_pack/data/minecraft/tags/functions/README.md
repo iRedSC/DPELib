@@ -3,7 +3,7 @@
 
 #### What is a function tag?
 A function tag is list a functions that can be executed all at once.
-Function tags are `.json` files placed in `<datapack>/data/<namespace>/tags/functions/<function_tag>.json`.
+Function tags are `.json` files placed in `<data pack>/data/<namespace>/tags/functions/<function_tag>.json`.
 Its resource location is `#<namespace>:<function_tag>`
 
 ```json
@@ -17,11 +17,11 @@ Its resource location is `#<namespace>:<function_tag>`
 ```
 
  - `"values"` is a list of function resource locations.
- - `"replace"`, whether or not to replace this tag from any lower priority data packs (optional, defaults to false). Don't set this to true unless you have a very good reason to do so, as it may mess up the functionality of other datapacks. **You should NEVER set `"replace"` to true in the `tick` or `load` tags!**
+ - `"replace"`, whether or not to replace this tag from any lower priority data packs (optional, defaults to false). Don't set this to true unless you have a very good reason to do so, as it may mess up the functionality of other data packs. **You should NEVER set `"replace"` to true in the `tick` or `load` tags!**
 
 #### `tick.json`:
 A list of functions that will be run every tick, similar to a repeating command block.
-It's best to have one or two ticking functions, and use those to run the rest of your functions using conditionals, this will keep your datapack more efficient.
+It's best to have one or two ticking functions, and use those to run the rest of your functions using conditionals, this will keep your data pack more efficient.
 
 #### `load.json`:
 A list of functions that will run once on world load, or reload (`/reload`).

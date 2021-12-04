@@ -13,5 +13,5 @@ The `vanilla` data pack contains all the vanilla loot tables, advancements, reci
 
 A resource location is how specific resource is called, instead of having to put in the whole resource path.
 
-If there is a function under `<datapack>/data/custom/functions/flame_sword.mcfunction`, then it's resource location would be `custom:flame_sword`.
-Resources can be put in sub folders as well, so `<datapack>/data/custom/functions/swords/flame_sword.mcfunction` would be `custom:swords/flame_sword`. There is no limit to the amount of sub folders that can be used.
+If there is a function under `<data pack>/data/custom/functions/flame_sword.mcfunction`, then it's resource location would be `custom:flame_sword`.
+Resources can be put in sub folders as well, so `<data pack>/data/custom/functions/swords/flame_sword.mcfunction` would be `custom:swords/flame_sword`. There is no limit to the amount of sub folders that can be used.

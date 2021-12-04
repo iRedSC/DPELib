@@ -3,17 +3,23 @@
 
 #### Features
 
- - **[Datapack Examples](datapacks)**
+ - **[Data pack Examples](datapacks)**
  - **[Guides](guides)**
     - [Commands](guides/commands)
     - [Functions](guides/functions)
- - **[Lectern Literate Datapacks](lectern)**
+ - **[Lectern Literate Data packs](lectern)**
+
+#### Recently Added
+ - `12/3/2021`
+    1. Some Lectern test files 
+    2. Updated some guides
+
 #### Planned
  - [ ] Everything written for use with [Lectern](https://github.com/mcbeet/lectern)
  - [ ] Create docs website (*Or just merge with JDPT*)
  - [ ] Add Tutorials
  - [ ] Add Tips
- - [ ] MAKE SURE IT'S DATA PACK INSTEAD OF DATAPACK
+ - [ ] MAKE SURE IT'S DATA PACK INSTEAD OF DATA PACK
 
 ---
 #### Useful Resources:
