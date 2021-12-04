@@ -51,6 +51,6 @@ Loot tables are **`called`**.
 Item modifiers are **`applied`**.
 
 ---
-Updated `12/3/2021`
-For MC `1.17-1.18`
+Updated `12/3/2021` <br />
+For MC `1.17-1.18` <br />
 Guide from [DPELib](https://github.com/iRedSC/DPELib) by [iRedSC](https://github.com/iRedSC)

@@ -19,6 +19,6 @@ The `execute` command is a command that changes the context, adds conditions, an
 `rotated (as <targets> | <rot>)` - Replaces current **rotation context**, with a set rotation or with the rotation of each defined **target**, which apply to all trailing **clauses**.
 
 ---
-Updated `12/3/2021`
-For MC `1.17-1.18`
+Updated `12/3/2021` <br />
+For MC `1.17-1.18` <br />
 Guide from [DPELib](https://github.com/iRedSC/DPELib) by [iRedSC](https://github.com/iRedSC)

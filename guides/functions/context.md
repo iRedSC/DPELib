@@ -8,6 +8,6 @@ Invocation context is the entity/location from which function was executed/invok
 To change the *executor* context, `execute as` is used, `execute at`, `rotated`, `positioned`, `facing`, etc. are all valid ways of modifying the *location* context.
 
 ---
-Updated `12/3/2021`
-For MC `1.17-1.18`
+Updated `12/3/2021` <br />
+For MC `1.17-1.18` <br />
 Guide from [DPELib](https://github.com/iRedSC/DPELib) by [iRedSC](https://github.com/iRedSC)
