@@ -2,16 +2,24 @@
 ---
 #### General Terms
 
+<a name="target"></a>
+
 **`Target`** - An entity/player that can be defined using a **selector** (`@a`, `@e[type=marker]`, `@s`, etc.)
+
+<a name="executor"></a>
 
 **`Executor`** - The entity running a particular command.
 > If you run a command in chat, *you* are the **executor**.
+
+<a name="location"></a>
 
 **`Location`** - A **position**, **rotation** and/or **dimension**.
  - **`Position`** - World position coordinates (`12 5 2`, `~ ~ ~`)
  - **`Rotation`** - Pitch and Yaw
  - **`Dimension`** - `minecraft:overworld`, `minecraft:the_end` etc.
 > If you run a command in chat, the command will run at your **location**.
+
+<a name="context"></a>
 
 **`Context`** - An entity and/or location (position **and** rotation) a command/function is executed from.
 > `execute as` will change the **executor** context; if multiple entities are selected, it will create an individuel [executor] context per entity.

@@ -3,7 +3,7 @@
 
 When a function is executed, its invocation context is carried over to the entire function, and any functions it may invoke.
 
-Starting simple, running a function from chat (`/function`) will set the function's **executor context** (`@s`) to yourself, and the function's **location context** (position, rotation, dimension) to your location.
+Starting simple, running a function from chat (`/function`) will set the function's **[executor context](../terminology#executor)** (`@s`) to yourself, and the function's **location context** (position, rotation, dimension) to your location.
 <details>
 <summary><b>Example</b></summary>
 
