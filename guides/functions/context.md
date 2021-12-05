@@ -3,9 +3,18 @@
 
 When a function is executed, its invocation context is carried over to the entire function, and any functions it may invoke.
 
-Invocation context is the entity/location from which function was executed/invoked.
- If a player runs `/function` in chat, both the *executor* and *location* context are set to the player and their location.
-To change the *executor* context, `execute as` is used, `execute at`, `rotated`, `positioned`, `facing`, etc. are all valid ways of modifying the *location* context.
+Starting simple, running a function from chat (`/function`) will set the function's **executor context** (`@s`) to yourself, and the function's **location context** (position, rotation, dimension) to your location.
+<details>
+<summary><b>Example</b></summary>
+
+`@function -user:say`
+```mcfunction
+# This will run as and at the player who runs '/function -user:say'
+say hi
+particle flame ~ ~ ~
+```
+</details>
+
 
 ---
 Updated `12/3/2021` <br />
