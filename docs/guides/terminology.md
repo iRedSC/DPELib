@@ -41,7 +41,7 @@
 Score holders can be an **entity selector**.
 
 **`Variable`** - A fake player, or score holder that contains special characters which cannot be used as a valid Minecraft account.
-> $timer .timer #timer are all valid variables
+> `$timer .timer #timer` are all valid variables
 
 ---
 
@@ -49,23 +49,45 @@ Score holders can be an **entity selector**.
 ### Data Pack Terms
 
 #### Referencing
-Functions and function tags are **`executed`**.
+Functions and function tags are **executed**.
 
-Predicates are **`checked`**.
+Predicates are **checked**.
 
-Block/Entity/Item tags are **`referenced`**.
+Block/Entity/Item tags are **referenced**.
 
-Loot tables are **`called`**.
+Loot tables are **called**.
 
-Item modifiers are **`applied`**.
+Item modifiers are **applied**.
 
 #### Tags
-Block/Entity/Item tags (`#special:tag`) are **`Group Tags`**.
+Block/Entity/Item groupings as defined by data packs are **Group Tags**.
+Group tags hold a list of **resources**, and are referenced using a **resource location** prefixed with a `#`, 
+Groups tags can be used for:
+ - Blocks
+ - Entity Types
+ - Fluids
+ - Functions
+ - Items
 
-Entity selector tags (`tag=special`) are **`Selector Tags`**.
+In this example, `#minecraft:planks` is an item group tag:
+```mcfunction
+/clear @s #minecraft:planks
+```
 
-Entity/Block data tags (`{tag:1b}`) are **`NBT Tags`**.
 
+The tags added through the /tag command and tested for using the tag selector argument are **Selector Tags**.
+In this example, special is a selector tag:
+```mcfunction
+/tag @s add special
+/execute if entity @s special
+```
+
+
+Specific information stored in NBT is an **NBT Tag**.
+In this example, NoAI:true is an NBT tag:
+```mcfunction
+/summon cow ~ ~1 ~ {NoAI:true}
+```
 
 ---
 Updated `12/23/2021` <br />
