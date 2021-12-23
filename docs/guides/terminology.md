@@ -48,17 +48,26 @@ Score holders can be an **entity selector**.
 
 ### Data Pack Terms
 
+#### Referencing
 Functions and function tags are **`executed`**.
 
 Predicates are **`checked`**.
 
-Block tags/entity tags/item tags are **`referenced`**.
+Block/Entity/Item tags are **`referenced`**.
 
 Loot tables are **`called`**.
 
 Item modifiers are **`applied`**.
 
+#### Tags
+Block/Entity/Item tags (`#special:tag`) are **`Group Tags`**.
+
+Entity selector tags (`tag=special`) are **`Selector Tags`**.
+
+Entity/Block data tags (`{tag:1b}`) are **`NBT Tags`**.
+
+
 ---
-Updated `12/3/2021` <br />
+Updated `12/23/2021` <br />
 For MC `1.17-1.18` <br />
 Guide from [DPELib](https://github.com/iRedSC/DPELib) by [iRedSC](https://github.com/iRedSC)
