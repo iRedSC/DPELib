@@ -1,4 +1,6 @@
-#> example:loop
+# [!] Note: Everything prepended with # is a comment.
+
+#> dpe:loop
 #
 # This function is executed by #minecraft:tick every tick.
 # Every line is a command, which run in order.
@@ -11,4 +13,4 @@
 # This is the method that will be used throughout the rest of DPELib
 
 # Using "execute as" and "execute at" before executing a function will assign the entity and location for the ENTIRE function.
-execute as @a[scores={sneaking=1..}] at @s run function example:sneaking
+execute as @a[scores={sneaking=1..}] at @s run function dpe:sneaking

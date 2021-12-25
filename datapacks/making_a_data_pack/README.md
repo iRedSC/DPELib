@@ -1,3 +1,9 @@
+**Please read *all* of the README files through the data pack**!
+
+---
+# Introduction
+Welcome to DPELib, the hardest part of making a data pack is the folder structure. This example data pack will go explain what each folder if for while making a **function** data pack.
+
 ### What is pack.mcmeta?
 `pack.mcmeta` is the file that tells minecraft to treat the folder like a data pack.
 

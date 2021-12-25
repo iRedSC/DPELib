@@ -6,7 +6,7 @@
 
 
 #> Assign all players an ID if they do not have one already
-# In this example, we will give all players a unique ID, and then give them a sheep with the same ID
+# In this dpe, we will give all players a unique ID, and then give them a sheep with the same ID
 # Then the sheep will be teleported to its linked player
 
     # If a score holder is not assigned a score, it is "undefined".

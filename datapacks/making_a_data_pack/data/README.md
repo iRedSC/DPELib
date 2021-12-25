@@ -5,7 +5,7 @@ You've already used namespaces if you've every used `/give @s minecraft:diamond`
 
 The above resources cannot be modified using data packs, but there are plenty of things which can be, including `functions`.
 
-In this example pack the namespace `example` is used, but namespaces can be named anything, with valid characters being `[a-z] _ - .` *(These valid characters apply to almost every other folder and file name in a data pack)*.
+In this example pack the namespace `dpe` is used, but namespaces can be named anything, with valid characters being `[a-z] [0-9] _ - .` *(These valid characters apply to almost every other folder and file name in a data pack)*.
 
 The `vanilla` data pack contains all the vanilla loot tables, advancements, recipes, block tags, etc.  These are all kept in the `minecraft:` namespace. **Modifying loot tables/tags etc. that exist in the `vanilla` data pack will either replace or add to the existing content.** This is how one is able to - for example - change mob drops.
 

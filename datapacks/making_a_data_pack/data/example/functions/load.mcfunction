@@ -1,4 +1,6 @@
-#> example:load
+# [!] Note: Everything prepended with # is a comment.
+
+#> dpe:load
 #
 # This function is executed by #minecraft:load, and will run once upon world load or when /reload is used
 #

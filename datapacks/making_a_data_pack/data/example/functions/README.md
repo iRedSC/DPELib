@@ -8,4 +8,6 @@ You can make comments by prepending the line with a `#`, which will make minecra
 say this command will run first
 say this command will be run next
 ```
+Slashes `/` **cannot** be used in functions.
+
 The file extension for functions is `.mcfunction`
