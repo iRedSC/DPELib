@@ -1,6 +1,7 @@
 # Scoreboard Timers
 
-When you want to create a timer for almost any purpose, scoreboards are the way to go.
+The two leading methods for creating timers are **scoreboards** and the **schedule** command. This guide is going to focus on *scoreboard timers*.
+
 
 There are two different kinds of timers discussed in this guide, **global timers**, and **local timers**.
 
@@ -22,8 +23,6 @@ They use a **variable** to make the timer global.
 
 >**`Variable`** - A fake player, or score holder that contains special characters which cannot be used as a valid Minecraft account.
 `$timer .timer #timer` are all valid variables
-
->**[!] Note:** in many cases, if you're using a data pack, you can use the **`schedule`** command, this guide is only for **scoreboard** timers.
 
 Here is an example of a global timer that will say "executed" every twenty seconds:
 
